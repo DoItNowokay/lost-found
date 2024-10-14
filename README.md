@@ -15,13 +15,24 @@ This project aims to develop an intelligent pipeline that combines visual inputs
 
 ### Example Use Cases:
 
-1. **Input Image**: Red Bull can  
+1. **Input Image**: Red Bull can 
+
+    ![Logo1](./images/RedBull.jpeg)
+
    **Input Prompt**: Show me other products that belong to the same category.  
    **Output**: Web search results featuring energy drinks.
 
+   ![Logo2](./images/q1.png)
+
+
 2. **Input Image**: A black hoodie with a Superman logo  
+
+    ![Logo3](./images/superman.png)
+
    **Input Prompt**: Show me t-shirts with the same design.  
    **Output**: Web search results showing t-shirts with the Superman logo.
+
+   ![Logo4](./images/q2.png)
 
 
 ## Project Workflow
@@ -54,6 +65,7 @@ This project aims to develop an intelligent pipeline that combines visual inputs
     streamlit run app.py
     ```
 
+
 ## Technologies Used
 
 - **Image2Text Models**: MoonDream2  *https://huggingface.co/vikhyatk/moondream2*
@@ -62,3 +74,4 @@ This project aims to develop an intelligent pipeline that combines visual inputs
 - **Streamlit**: A simple web app interface for  the project.
 - **Python**: The core programming language for the pipeline.
 
+*Note that first time running takes time due to model loading*

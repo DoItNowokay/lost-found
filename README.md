@@ -4,7 +4,7 @@
 
 This project aims to develop an intelligent pipeline that combines visual inputs (images) and contextual user queries (prompts) to enhance web search efficiency. Below is the pipline for the project
 
-![Logo][./images/flow.png]
+![Logo](./images/flow.png)
 
 ## Features
 
